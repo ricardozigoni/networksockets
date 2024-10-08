@@ -11,7 +11,7 @@ socket.listen() //aguardando conexão na porta
 con, addr = socket.accept() //criando duas variaveis para mostrar a conexão e o endereço de onde esta vindo a conexao
 
 print(addr) //mostrando endereço que está Conectando
-
+/
 
 //ver se a conexao funcionou - ss -ln | grep 9473
 //testar conexao com o nc -v localhost 9473
